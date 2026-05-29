@@ -2,10 +2,10 @@ var L = 'ar',
     AD = null,
     AS = 0;
 var IM = {
-    g: '/images/glowia.png',
-    y: '/images/your-gym.png',
-    n: '/images/nawaem.png',
-    c: '/images/my-cafe.png'
+    g: 'images/glowia.png',
+    y: 'images/your-gym.png',
+    n: 'images/nawaem.png',
+    c: 'images/my-cafe.png'
 };
 
 var D = {

@@ -408,257 +408,277 @@ var D = {
         ]
     },
 
-    n: {
-        name: {
-            a: 'نواعم بيوتي',
-            e: 'Nawaem Beauty'
+   n: {
+    name: {
+        a: 'نواعم بيوتي',
+        e: 'Nawaem Beauty'
+    },
+    cl: 'nw',
+    ik: 'n',
+    sec: [{
+        n: {
+            a: 'خدمات الشعر',
+            e: 'Hair Services'
         },
-        cl: 'nw',
-        ik: 'n',
-        sec: [{
-                n: {
-                    a: 'تصفيف الشعر',
-                    e: 'Hair Styling'
-                },
-                ic: '',
-                it: [{
-                        a: 'قص وتشفير',
-                        e: 'Haircut & Blow-dry',
-                        da: 'قصة عصرية مع تشفير احترافي',
-                        de: 'Trendy cut with professional blow-dry finish',
-                        p: 15000
-                    },
-                    {
-                        a: 'تشفير فقط',
-                        e: 'Blow-dry Only',
-                        da: 'تشفير وتصفيف الشعر فقط',
-                        de: 'Professional blow-dry & styling only',
-                        p: 8000
-                    },
-                    {
-                        a: 'كيراتين',
-                        e: 'Keratin Treatment',
-                        da: 'علاج الكيراتين لشعر ناعم وحريري',
-                        de: 'Keratin for smooth silky frizz-free hair',
-                        p: 80000
-                    },
-                    {
-                        a: 'صبغة كاملة',
-                        e: 'Full Hair Color',
-                        da: 'صبغة احترافية كاملة بأجود الألوان',
-                        de: 'Professional full-color with premium dyes',
-                        p: 50000
-                    },
-                    {
-                        a: 'بالياج',
-                        e: 'Balayage',
-                        da: 'تقنية البالياج للتدرج الطبيعي',
-                        de: 'Hand-painted highlights for natural-looking gradient',
-                        p: 120000
-                    },
-                    {
-                        a: 'أومبري',
-                        e: 'Ombré',
-                        da: 'تدرج لوني من الداكن للفاتح',
-                        de: 'Gradient color from dark roots to lighter ends',
-                        p: 100000
-                    },
-                    {
-                        a: 'وصلات شعر طبيعية',
-                        e: 'Hair Extensions',
-                        da: 'وصلات طبيعية عالية الجودة',
-                        de: 'Premium quality natural hair extensions',
-                        p: 150000,
-                        fr: true
-                    },
-                    {
-                        a: 'ماسك علاجي عميق',
-                        e: 'Deep Treatment Mask',
-                        da: 'ماسك مكثف لترميم وتغذية الشعر',
-                        de: 'Intensive mask to deeply repair & nourish hair',
-                        p: 20000
-                    }
-                ]
+        ic: '',
+        it: [
+            {
+                a: 'قص شعر',
+                e: 'Hair Cut',
+                da: '',
+                de: '',
+                p: 50000
             },
             {
-                n: {
-                    a: 'مكياج',
-                    e: 'Makeup'
-                },
-                ic: '',
-                it: [{
-                        a: 'مكياج نهاري',
-                        e: 'Daytime Makeup',
-                        da: 'إطلالة ناعمة ومشرقة للنهار',
-                        de: 'Soft & fresh natural daytime look',
-                        p: 20000
-                    },
-                    {
-                        a: 'مكياج سهرة',
-                        e: 'Evening Makeup',
-                        da: 'لوك سهرة جذاب ومميز',
-                        de: 'Glamorous & striking evening look',
-                        p: 35000
-                    },
-                    {
-                        a: 'مكياج خطبة',
-                        e: 'Engagement Makeup',
-                        da: 'إطلالة ملكية ليوم الخطبة',
-                        de: 'Regal look for your special engagement day',
-                        p: 70000
-                    },
-                    {
-                        a: 'مكياج عروسة',
-                        e: 'Bridal Makeup',
-                        da: 'مكياج عروس متكامل يدوم طوال اليوم',
-                        de: 'Full long-lasting bridal makeup look',
-                        p: 100000
-                    },
-                    {
-                        a: 'تشكيل وصبغ الحاجبين',
-                        e: 'Brow Shape & Tint',
-                        da: 'رسم وصبغ الحاجبين للإطار المثالي',
-                        de: 'Expert brow shaping & tinting for a perfect frame',
-                        p: 10000
-                    }
-                ]
+                a: 'قص شعر تطريف',
+                e: 'Cut off the split ends',
+                da: '',
+                de: '',
+                p: 25000
             },
             {
-                n: {
-                    a: 'أظافر وسبا',
-                    e: 'Nails & Spa'
-                },
-                ic: '',
-                it: [{
-                        a: 'مانيكير',
-                        e: 'Manicure',
-                        da: 'عناية وتشكيل الأظافر وطلاء كلاسيكي',
-                        de: 'Nail care, shaping & classic polish',
-                        p: 12000
-                    },
-                    {
-                        a: 'باديكير',
-                        e: 'Pedicure',
-                        da: 'عناية متكاملة بالقدمين والأظافر',
-                        de: 'Complete foot & nail care treatment',
-                        p: 15000
-                    },
-                    {
-                        a: 'أظافر جيل',
-                        e: 'Gel Nails',
-                        da: 'طلاء جيل يدوم لأسابيع',
-                        de: 'Long-lasting gel polish for weeks of wear',
-                        p: 25000
-                    },
-                    {
-                        a: 'نقش الأظافر (للظفر الواحد)',
-                        e: 'Nail Art (per nail)',
-                        da: 'تصاميم يدوية مبتكرة على الأظافر',
-                        de: 'Creative hand-drawn nail art designs',
-                        p: 2000
-                    },
-                    {
-                        a: 'مساج كلاسيكي – 60 دقيقة',
-                        e: 'Classic Massage (60 min)',
-                        da: 'مساج استرخائي كامل للجسم',
-                        de: 'Full-body relaxation massage session',
-                        p: 35000
-                    },
-                    {
-                        a: 'حمام وتقشير الجسم',
-                        e: 'Hammam & Body Scrub',
-                        da: 'تقشير وترطيب الجسم بالطريقة الشرقية',
-                        de: 'Oriental-style body scrub & moisturizing',
-                        p: 45000
-                    },
-                    {
-                        a: 'باقة الاسترخاء الكاملة',
-                        e: 'Full Relaxation Package',
-                        da: 'مساج كامل + ماسك للبشرة في جلسة واحدة',
-                        de: 'Full body massage + facial mask in one session',
-                        p: 70000
-                    }
-                ]
+                a: 'قص غرة',
+                e: 'Bangs Cut',
+                da: '',
+                de: '',
+                p: 15000
             },
             {
-                n: {
-                    a: 'جناح العروسة',
-                    e: 'Bridal Suite'
-                },
-                ic: '',
-                it: [{
-                        a: 'باقة عروسة شاملة',
-                        e: 'Full Bridal Package',
-                        da: 'شعر + مكياج + أظافر كاملة بيد خبيرات',
-                        de: 'Hair + Makeup + Nails by our expert team',
-                        p: 250000
-                    },
-                    {
-                        a: 'حمام العروسة الملكي',
-                        e: 'Royal Bridal Hammam',
-                        da: 'تجربة استشفائية فاخرة قبل يوم الزفاف',
-                        de: 'Luxurious spa ritual before the wedding day',
-                        p: 80000
-                    },
-                    {
-                        a: 'باقة ليلة الحناء',
-                        e: 'Henna Night Package',
-                        da: 'مكياج + حناء + تجهيز كامل للعروسة',
-                        de: 'Makeup + henna + full bridal preparation',
-                        p: 120000
-                    },
-                    {
-                        a: 'فيشل إشراقة ما قبل الزفاف',
-                        e: 'Pre-Wedding Glow Facial',
-                        da: 'جلسة خاصة لإشراقة بشرة لا تُنسى',
-                        de: 'Special facial for unforgettable bridal radiance',
-                        p: 60000
-                    }
-                ]
+                a: 'شسوار شعر قصير',
+                e: 'Short Hair Blow Dry',
+                da: 'سشوار او ليس',
+                de: '',
+                p: 75000
             },
             {
-                n: {
-                    a: 'الفساتين',
-                    e: 'Dresses'
-                },
-                ic: '',
-                it: [{
-                        a: 'تأجير فستان عروسة',
-                        e: 'Bridal Dress Rental',
-                        da: 'مجموعة فساتين عرائس فاخرة وعصرية',
-                        de: 'Luxury & contemporary bridal dress collection',
-                        p: 200000,
-                        fr: true
-                    },
-                    {
-                        a: 'تأجير فستان سهرة',
-                        e: 'Evening Dress Rental',
-                        da: 'تشكيلة واسعة من فساتين السهرة',
-                        de: 'Wide selection of elegant evening gowns',
-                        p: 80000,
-                        fr: true
-                    },
-                    {
-                        a: 'تأجير فستان خطوبة',
-                        e: 'Engagement Dress Rental',
-                        da: 'فساتين خطوبة مميزة لليلة لا تُنسى',
-                        de: 'Distinctive gowns for an unforgettable engagement',
-                        p: 100000,
-                        fr: true
-                    },
-                    {
-                        a: 'تعديل وتفصيل',
-                        e: 'Alterations & Fitting',
-                        da: 'خدمة تعديل الفساتين على المقاس بدقة',
-                        de: 'Precise bespoke dress alteration & fitting service',
-                        p: 15000,
-                        fr: true
-                    }
-                ]
+                a: 'شسوار شعر طويل',
+                e: 'Long Hair Blow Dry',
+                da: 'سشوار او ليس',
+                de: '',
+                p: 100000
+            },
+            {
+                a: 'صبغ شعر ماي لاين',
+                e: 'My Line Hair Color',
+                da: 'صبغة احترافية',
+                de: '',
+                p: 150000
+            },
+            {
+                a: 'صبغة شعر بيور',
+                e: 'Color Hair',
+                da: '',
+                de: '',
+                p: 200000
+            },
+            {
+                a: 'بروتين 50 مل Smother',
+                e: 'Smother Protein 50ml',
+                da: 'علاج بروتين للشعر',
+                de: 'Hair protein treatment',
+                p: 350000
+            },
+            {
+                a: 'بروتين 50 مل SunHair',
+                e: 'SunHair Protein 50ml',
+                da: 'علاج بروتين للشعر',
+                de: 'Hair protein treatment',
+                p: 400000
+            },
+            {
+                a: 'بروتين 50 مل Provita',
+                e: 'Provita Protein 50ml',
+                da: 'علاج بروتين للشعر',
+                de: 'Hair protein treatment',
+                p: 350000
+            },
+            {
+                a: 'تسريحة ويفي مع مكياج ثقيل',
+                e: 'Wave Style + heavy meakup',
+                da: '',
+                de: '',
+                p: 650000
+            },
+            {
+                a: 'تسريحة ويفي مع مكياج خفيف',
+                e: 'Wave Style + Light meakup',
+                da: '',
+                de: '',
+                p: 450000
+            },
+            {
+                a: 'ليس مع مكياج',
+                e: 'Hair Style with Makeup',
+                da: '',
+                de: '',
+                p: 300000
+            },
+            {
+                a: 'تسريحة شنيون مع مكياج ثقيل',
+                e: 'Hair Style + Heavy meakup',
+                da: '',
+                de: '',
+                p: 700000
+            },
+            {
+                a: 'تسريحة شنيون مع مكياج خفيف',
+                e: 'Hair Style + Light meakup',
+                da: 'تسريحة نيون مع معالجة',
+                de: 'Neon style with light treatment',
+                p: 600000
+            },
+            {
+                a: 'تسريحة مرافقة شعر طويل',
+                e: ' Hairstyle Long Hair',
+                da: '',
+                de: '',
+                p: 500000
+            },
+            {
+                a: 'تسريحة مرافقة شعر قصير',
+                e: ' Hairstyle Short Hair',
+                da: '',
+                de: '',
+                p: 350000
             }
         ]
     },
-
+    {
+        n: {
+            a: 'المكياج',
+            e: 'Makeup'
+        },
+        ic: '',
+        it: [
+            {
+                a: 'مكياج مرافقة',
+                e: 'Makeup',
+                da: '',
+                de: '',
+                p: 200000
+            },
+            {
+                a: 'تلبيس عروس عادي',
+                e: 'Regular Bridal Makeup',
+                da: '',
+                de: '',
+                p: 2700000
+            },
+            {
+                a: 'تلبيس عروس ملكي',
+                e: 'Royal Bridal Makeup',
+                da: 'تنظيف بشرة عميق + حمام مغربي + مشروب خاص + وجبة + عناية بالاظافر',
+                de: 'Royal bridal package',
+                p: 50000000
+            }
+        ]
+    },
+    {
+        n: {
+            a: ' الأظافر والبديكير',
+            e: 'Nails & BodyCare'
+        },
+        ic: '',
+        it: [
+            {
+                a: 'أظافر جل قدمين',
+                e: 'Gel Toenails',
+                da: '',
+                de: '',
+                p: 0
+            },
+            {
+                a: 'أظافر جل يدين',
+                e: 'Gel Fingernails',
+                da: '',
+                de: '',
+                p: 0
+            },
+            {
+                a: 'تركيب أظافر',
+                e: 'Nail Extensions',
+                da: '',
+                de: '',
+                p: 50000
+            },
+            {
+                a: 'لحميات قدمين مع سكراب',
+                e: 'Feet Care with Scrub',
+                da: 'عناية مع سكراب',
+                de: 'Care with scrub',
+                p: 50000
+            },
+            {
+                a: 'لحميات يدين مع سكراب',
+                e: 'Hand Care with Scrub',
+                da: 'عناية مع سكراب',
+                de: 'Care with scrub',
+                p: 50000
+            },
+                {
+                a: 'بارفين قدمين',
+                e: 'Paraffin Feet',
+                da: '',
+                de: '',
+                p: 100000
+            },
+            {
+                a: 'بارفين يدين',
+                e: 'Paraffin Hands',
+                da: ' ',
+                de: '',
+                p: 100000
+            },
+        ]
+    },
+    {
+        n: {
+            a: 'الحواجب والرموش',
+            e: 'Brows & Lashes'
+        },
+        ic: '',
+        it: [
+        
+            {
+                a: 'إزالة حواجب + وجه كامل',
+                e: 'Eyebrows + Full Face',
+                da: 'إزالة شعر الوجه كامل',
+                de: 'Full face hair removal',
+                p: 50000
+            },
+            {
+                a: 'إزالة حواجب وشارب',
+                e: 'Eyebrows & Upper Lip',
+                da: 'إزالة حواجب وشارب',
+                de: 'Eyebrows and upper lip',
+                p: 25000
+            },
+            {
+                a: 'إزالة حواجب',
+                e: 'Eyebrows',
+                da: 'تنظيف الحواجب',
+                de: 'Eyebrow shaping',
+                p: 20000
+            }
+        ]
+    },
+    {
+        n: {
+            a: 'السنفرة',
+            e: ''
+        },
+        ic: '',
+        it: [
+            {
+                a: 'سنفرة',
+                e: 'skin care',
+                da: '',
+                de: '',
+                p: 100000
+            }
+        ]
+    }]
+}
     c: {
         name: {
             a: 'ماي كافيه',
